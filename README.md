@@ -36,7 +36,7 @@ Limitations
 
 1. For now, the plugin needs to be on the [vim-scripts][vim-scripts] project on
    Github.
-2. The plugin needs to [Pathogen][pathogen] compatible.
+2. The plugin needs to be [Pathogen][pathogen] compatible.
 
 TODO/Goals
 ----------
@@ -46,7 +46,8 @@ TODO/Goals
 3. Support for plugins outside of Github?
 4. Run `:helptags` after install
 5. Windows support?
-6. Be the de-facto standard for Vim plugin management and rule the world. Muahahaha!
+6. Install Pathogen on `configure`
+7. Be the de-facto standard for Vim plugin management and rule the world. Muahahaha!
 
 License
 -------
