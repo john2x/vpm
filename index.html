@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>Vim Plugin Manager by john2x</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Vim Plugin Manager</h1>
+        <h2>Plugin management for the modern man. </h2>
+
+        <section id="downloads">
+          <a href="https://github.com/john2x/vpm/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/john2x/vpm/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/john2x/vpm" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a name="vim-pluginpathogen-manager" class="anchor" href="#vim-pluginpathogen-manager"><span class="octicon octicon-link"></span></a>Vim Plugin/Pathogen Manager</h1>
+
+<p>The missing plugin manager for Vim.</p>
+
+<h2>
+<a name="prerequisites" class="anchor" href="#prerequisites"><span class="octicon octicon-link"></span></a>Prerequisites</h2>
+
+<p><strong>vpm</strong> works on top of Pathogen to manage Vim plugins.
+<a href="https://github.com/tpope/vim-pathogen">Install Pathogen</a> first.</p>
+
+<h2>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<p>Make sure <a href="https://github.com/tpope/vim-pathogen">Pathogen</a> is installed and properly setup.</p>
+
+<p>Copy <code>vpm</code> into your <code>$PATH</code> (e.g. <code>/usr/local/bin</code>) and make it executable.</p>
+
+<pre><code>$ chmod +x vpm
+</code></pre>
+
+<p>Then run <code>$ vpm configure</code> to get started.</p>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<pre><code>$ vpm configure
+$ vpm install &lt;plugin-name&gt;
+$ vpm update &lt;plugin-name&gt;
+$ vpm uninstall &lt;plugin-name&gt;
+$ vpm list-installed
+</code></pre>
+
+<p>For a list of all available plugins, see <a href="http://vim-scripts.org/vim/scripts.html">vim-scripts.org</a></p>
+
+<h2>
+<a name="limitations" class="anchor" href="#limitations"><span class="octicon octicon-link"></span></a>Limitations</h2>
+
+<ol>
+<li>For now, the plugin needs to be on the <a href="https://github.com/vim-scripts?tab=repositories">vim-scripts</a> project on
+Github.</li>
+<li>The plugin needs to <a href="https://github.com/tpope/vim-pathogen">Pathogen</a> compatible.</li>
+</ol><h2>
+<a name="todogoals" class="anchor" href="#todogoals"><span class="octicon octicon-link"></span></a>TODO/Goals</h2>
+
+<ol>
+<li>Support for plugins outside of <a href="https://github.com/vim-scripts?tab=repositories">vim-scripts</a>
+</li>
+<li>Support for plugins not compatible with Pathogen by default</li>
+<li>Support for plugins outside of Github?</li>
+<li>Run <code>:helptags</code> after install</li>
+<li>Windows support?</li>
+<li>Be the de-facto standard for Vim plugin management and rule the world. Muahahaha! (not really)</li>
+</ol>
+      </section>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-24180295-5");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
