@@ -29,7 +29,7 @@ Usage
     $ vpm uninstall <plugin-name>
 	$ vpm list-installed
 
-For a list of all available scripts, see [vim-scripts.org](http://vim-scripts.org/vim/scripts.html)
+For a list of all available plugins, see [vim-scripts.org](http://vim-scripts.org/vim/scripts.html)
 
 Limitations
 -----------
