@@ -87,7 +87,7 @@ def _search_vim_scripts(plugin_name):
     repo = urllib.urlopen(VIM_SCRIPTS_REPO + plugin_name)
     repo = json.load(repo)
     if repo.get('message') == 'Not Found':
-        return None, None
+        return None, None, None
     return repo['name'], repo['description'], repo['clone_url']
 
 def _get_installed_plugin(plugin_name):
