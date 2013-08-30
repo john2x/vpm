@@ -3,6 +3,18 @@ Vim Plugin/Pathogen Manager
 
 The missing plugin manager for Vim.
 
+Discontinued
+------------
+
+Unfortunately, I gave [NeoBundle][neobundle] a try to get some ideas for the project,
+and found myself liking it. A lot. 
+
+Alternatives:
+
+- [NeoBundle][neobundle]
+- [Vundle][vundle]
+- [Vim Addon Manager (VAM)][vam]
+
 Prerequisites
 -------------
 
@@ -57,4 +69,7 @@ Same as [Vim's][vim]. See `:help license`.
 [pathogen]: https://github.com/tpope/vim-pathogen
 [vim-scripts]: https://github.com/vim-scripts?tab=repositories
 [vim]: http://www.vim.org/about.php
+[neobundle]: https://github.com/Shougo/neobundle.vim
+[vundle]: https://github.com/gmarik/vundle
+[vam]: https://github.com/MarcWeber/vim-addon-manager
 
